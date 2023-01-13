@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-
-mongoose.connect("mongodb+srv://sahil:sahil123@done.3raaw7v.mongodb.net/?retryWrites=true&w=majority", {
+//CHANGE THE MONGO URL 
+mongoose.connect("mongodb+srv://sahil:sahil@done.3raaw7v.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
